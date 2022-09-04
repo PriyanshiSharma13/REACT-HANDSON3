@@ -45,12 +45,12 @@ const MyForm = () => {
                     <div className="wrapDetails">
                         <div className="box1">
                             <label htmlFor="name" className="label">Name :</label>
-                            <input type="text" className="inputBox" placeholder="e.g. John Doe" value={data1} onChange={fetchDataOne} required/>  
+                            <input type="text" className="inputBox" placeholder="e.g. Zac Efron" value={data1} onChange={fetchDataOne} required/>  
                         </div>
                         <div className="vertical"></div>
                         <div className="box2">
                             <label htmlFor="department" className="label">Department :</label>
-                            <input type="text" className="inputBox" placeholder="e.g. Finance" value={data2} onChange={fetchDataTwo} required/>
+                            <input type="text" className="inputBox" placeholder="e.g. IT" value={data2} onChange={fetchDataTwo} required/>
                         </div>
                         <div className="vertical"></div>
                         <div className="box3">
