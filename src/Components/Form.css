@@ -142,10 +142,6 @@ body{
 /* Adding Media Query for Mobile Phones- */
 
 @media only screen and (max-width: 600px) {
-    body{
-        overflow: hidden;
-        box-sizing: border-box;
-    }
     .formTitle {
       font-size: 1.8rem;
       margin-top: 50px;
@@ -193,6 +189,5 @@ body{
         margin-left: 35%;
         margin-right: 25%;
         font-size: 1.2rem;
-        overflow: hidden;
     }
 }
